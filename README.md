@@ -23,7 +23,7 @@ Basic structure
 ---------------
 ```
 ├── assets
-│   └── Javascript, CSS, Bumble fuck and theme images
+│   └── Javascript, CSS and theme images
 ├── config
 │   └── custom Theme Settings
 ├── layout
