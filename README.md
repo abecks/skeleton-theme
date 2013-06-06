@@ -1,5 +1,7 @@
-Skeleton theme
+SCSS Skeleton theme
 ============
+
+This theme has been modified to include the <a href="https://github.com/jlong/sass-twitter-bootstrap">SASS Version of the Twitter Bootstrap</a>.
 
 The Skeleton theme is a simplified Shopify theme, to be used as a "blank slate" starting point for theme designers.
 
@@ -21,7 +23,7 @@ Basic structure
 ---------------
 ```
 ├── assets
-│   └── Javascript, CSS, and theme images
+│   └── Javascript, CSS, Bumble fuck and theme images
 ├── config
 │   └── custom Theme Settings
 ├── layout
