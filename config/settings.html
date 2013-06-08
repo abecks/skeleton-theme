@@ -33,7 +33,7 @@
 <fieldset>
     <legend>Appearance</legend>
 
-    <h3>General</h3>
+    <h3>Color</h3>
     <table>
         <tr>
             <td><label for="text_color">Text Color</label></td>
@@ -47,14 +47,22 @@
             <td><label for="page_bg_color">Page Background Color</label></td>
             <td><input id="page_bg_color" name="page_bg_color" class="color" type="text" value="#ECF3F5" /></td>
         </tr>
-        <tr>
-            <td><label for="base_font_size">Base Font Size</label></td>
-            <td><input id="base_font_size" name="base_font_size" type="text" value="14" />px</td>
-        </tr>
     </table>
 
     <h3>Typography</h3>
     <table>
+        <tr>
+            <td><label for="use_google_fonts">Use Google Fonts?</label></td>
+            <td><input id="use_google_fonts" name="use_google_fonts" type="checkbox"/></td>
+        </tr>
+        <tr>
+            <td><label for="google_font_stack">Google Font Stack</label></td>
+            <td><input id="google_font_stack" name="google_font_stack" type="text" value="" /></td>
+        </tr>
+        <tr>
+            <td><label for="base_font_size">Base Font Size</label></td>
+            <td><input id="base_font_size" name="base_font_size" type="text" value="14" />px</td>
+        </tr>
         <tr>
             <td><label for="sans_font_family">Sans Font Family</label></td>
             <td><input id="sans_font_family" name="sans_font_family" type="text" value="'Helvetica Neue', Helvetica, Arial, sans-serif" /></td>
@@ -68,8 +76,4 @@
             <td><input id="mono_font_family" name="mono_font_family" type="text" value="Monaco, Menlo, Consolas, 'Courier New', monospace" /></td>
         </tr>
     </table>
-
-    <h3>Navbar</h3>
-
-
 </fieldset>
