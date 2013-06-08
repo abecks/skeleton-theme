@@ -1,9 +1,17 @@
 {
-  "current": "Slate",
-  "presets": {
-    "Slate": {
-      "use_logo": false,
-      "customer_layout": "theme"
+    "current": "Beach",
+    "presets": {
+        "Beach": {
+            "use_logo": false,
+            "customer_layout": "theme",
+            "text_color": "#676767",
+            "link_color": "#007BBE",
+            "page_background_color": "#ECF3F5",
+            "use_google_fonts": false,
+            "base_font_size": "14",
+            "sans_font_family": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "serif_font_family": "Georgia, 'Times New Roman', Times, serif",
+            "mono_font_family": "Monaco, Menlo, Consolas, 'Courier New', monospace"
+        }
     }
-  }
 }
