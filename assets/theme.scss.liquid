@@ -1,3 +1,8 @@
+/*
+ * Modified for the Shopify theme "Stretch" by @staringatlights.
+ * (C) 2013 Andrew Becker
+ */
+
 /*!
  * Bootstrap v2.3.2
  *
@@ -6,6 +11,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ *
  */
 
 // Core variables and mixins
@@ -43,8 +49,8 @@ $purple:                #7a43b6 !default;
 
 // Scaffolding
 // -------------------------
-$bodyBackground:        $white !default;
-$textColor:             $grayDark !default;
+$bodyBackground:        {{ settings.page_bg_color }};
+$textColor:             {{ settings.text_color }};
 
 
 // Links
@@ -55,11 +61,11 @@ $linkColorHover:        darken($linkColor, 15%) !default;
 
 // Typography
 // -------------------------
-$sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$serifFontFamily:       Georgia, "Times New Roman", Times, serif !default;
-$monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace !default;
+$sansFontFamily:        {{ settings.sans_font_family }};
+$serifFontFamily:       {{ settings.serif_font_family }};
+$monoFontFamily:        {{ settings.mono_font_family }};
 
-$baseFontSize:          14px !default;
+$baseFontSize:          {{ settings.base_font_size }}px;
 $baseFontFamily:        $sansFontFamily !default;
 $baseLineHeight:        20px !default;
 $altFontFamily:         $serifFontFamily !default;

@@ -1,23 +1,75 @@
 <div class="section-info">
-<p>Theme settings allow designers to provide an easy way for any user to customize the look and feel of their shop without having to delve into HTML or CSS code. Please see our <a title="Open Wiki in a new window" target="wiki" href="http://wiki.shopify.com/Theme_Settings">help page on theme settings</a> to learn more about how you can make your theme customizable.</p>
+    <p>Theme settings allow designers to provide an easy way for any user to customize the look and feel of their shop
+        without having to delve into HTML or CSS code. Please see our <a title="Open Wiki in a new window" target="wiki"
+                                                                         href="http://wiki.shopify.com/Theme_Settings">help
+            page on theme settings</a> to learn more about how you can make your theme customizable.</p>
 </div>
 
 <fieldset>
-  <legend>General</legend>
-      
-  <h3>Logo Options</h3>
-  <table>
-    <tr>
-      <td><label for="use_logo">Use Custom Logo?</label></td>
-      <td><input type="checkbox" id="use_logo" name="use_logo" /></td>
-    </tr>
-    <tr>
-      <td><label for="logo_image">Custom Logo</label></td>
-      <td><input type="file" name="logo.png" id="logo_image" data-max-width="940" data-max-height="300" /></td>
-    </tr>
-    <tr>
-      <td colspan="2"><small>Maximum logo dimensions are 940px wide by 300px high.<br />Your uploaded file will be resized to fit within those constraints.<br />Need a full-width banner? Upload an image with a width of 940px, and a height of 300px or less.</small></td>
-    </tr>
-  </table>
-  
+    <legend>General</legend>
+
+    <h3>Logo Options</h3>
+    <table>
+        <tr>
+            <td><label for="use_logo">Use Custom Logo?</label></td>
+            <td><input type="checkbox" id="use_logo" name="use_logo"/></td>
+        </tr>
+        <tr>
+            <td><label for="logo_image">Custom Logo</label></td>
+            <td><input type="file" name="logo.png" id="logo_image" data-max-width="940" data-max-height="300"/></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <small>Maximum logo dimensions are 940px wide by 300px high.<br/>Your uploaded file will be resized to
+                    fit within those constraints.<br/>Need a full-width banner? Upload an image with a width of 940px,
+                    and a height of 300px or less.
+                </small>
+            </td>
+        </tr>
+    </table>
+
+</fieldset>
+
+<fieldset>
+    <legend>Appearance</legend>
+
+    <h3>General</h3>
+    <table>
+        <tr>
+            <td><label for="text_color">Text Color</label></td>
+            <td><input id="text_color" name="text_color" class="color" type="text" value="#676767" /></td>
+        </tr>
+        <tr>
+            <td><label for="link_color">Link Color</label></td>
+            <td><input id="link_color" name="link_color" class="color" type="text" value="#007BBE" /></td>
+        </tr>
+        <tr>
+            <td><label for="page_bg_color">Page Background Color</label></td>
+            <td><input id="page_bg_color" name="page_bg_color" class="color" type="text" value="#ECF3F5" /></td>
+        </tr>
+        <tr>
+            <td><label for="base_font_size">Base Font Size</label></td>
+            <td><input id="base_font_size" name="base_font_size" type="text" value="14" />px</td>
+        </tr>
+    </table>
+
+    <h3>Typography</h3>
+    <table>
+        <tr>
+            <td><label for="sans_font_family">Sans Font Family</label></td>
+            <td><input id="sans_font_family" name="sans_font_family" type="text" value="'Helvetica Neue', Helvetica, Arial, sans-serif" /></td>
+        </tr>
+        <tr>
+            <td><label for="serif_font_family">Serif Font Family</label></td>
+            <td><input id="serif_font_family" name="serif_font_family" type="text" value="Georgia, 'Times New Roman', Times, serif" /></td>
+        </tr>
+        <tr>
+            <td><label for="mono_font_family">Mono Font Family</label></td>
+            <td><input id="mono_font_family" name="mono_font_family" type="text" value="Monaco, Menlo, Consolas, 'Courier New', monospace" /></td>
+        </tr>
+    </table>
+
+    <h3>Navbar</h3>
+
+
 </fieldset>
