@@ -31,7 +31,7 @@
 
     {{ content_for_header }}
 
-    {{ 'style.css' | asset_url | stylesheet_tag }}
+    {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
 
     {% if settings.use_google_fonts %}
         <link href="http://fonts.googleapis.com/css?family={{ settings.google_font_stack }}" rel="stylesheet" type="text/css">
